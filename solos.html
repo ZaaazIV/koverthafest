@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kover tha fest</title>
+
+    <!--ICONSCOUT CDN-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <!--Google fonts ROBOTO-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,700;8..144,900&display=swap" rel="stylesheet">
+    <!--CSS STYLESHEETS-->
+    <link rel="stylesheet" href="./css/style.css">    
+    <link rel="stylesheet" href="./css/formulario.css">    
+
+</head>
+<body>
+    <!--************NAVBAR*************************-->
+    <nav>
+        <div class="container nav_container">
+            <a href="./index.html"><h4>KOVER THA FEST</h4></a>
+            <ul class="nav_menu">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./competencia.html">Competencia</a></li>
+                <li><a href="./workshop.html">Workshop</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+
+    <section class="registration">
+        <div class="container registration-container">
+            <h3>REGISTO DE SOLISTAS</h3><br>
+            <!--servicio desde:https://fabform.io// -->
+            <form id="form" class="contact-form2" action="https://fabform.io/f/C4Bn2ZW" method="POST">
+              
+                <label for="name">Nombre completo: </label>
+                <input name="nombre" id="name" type="text"  placeholder="Juan José López Pérez"  required ><br>
+                
+                <label for="artistic_name">Nombre artístico: </label>
+                <input name="nombre_artistico" id="artistic_name" type="text"  placeholder="Juanjo"  required ><br>
+                
+                <label for="email">Correo electrónico: </label>
+                <input name="email"  id="email" type="email"  placeholder="juanlopez@gmail.com"  required ><br>
+                
+                <label for="tel">Whatsapp o Teléfono:</label>
+                <input name="tel" id="tel" type="tel" minlength="10" maxlength="10"  placeholder="99999999"  required ><br>
+                
+                <label for="original">Artista y nombre de cancion original: </label>
+                <input name="cancion_original" id="original" type="text"  placeholder="BTS- Fire"  required ><br>
+                
+                <label for="link">Link de referencia coreográfica: </label>
+                <input name="link" id="link" type="url"  placeholder="www.youtube/BTS- Fire.com"  required ><br>
+                
+                <label for="inscripcion-workshop">Me quiero inscribir al Workshop: </label>
+                <select name="inscripcion-workshop" id="inscripcion-workshop">
+                    <option value="si">Si</option>
+                    <option value="no">No</option>
+                </select>                
+                
+               
+                
+                <div class="btn-location">
+                <button type="submit" class="btn btn-primary btn-form">Enviar</button>
+                <button type="reset" class="btn btn-primary btn-form">Borrar</button>
+                </div>
+                
+                
+            </form>  
+        </div>
+    </section>
+
+
+    <!--***************************FOOTER SECTION*************************-->
+<footer class="footer">
+    <div class="container footer_container">
+        <div class="footer_1">
+            <a href="./index.html"><img src="./images/Phantom_transp.png" alt="logo"></a>
+        </div>
+        <div class="footer_2">
+            <h4>Menú Principal</h4>
+            <ul class="permalinks">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./competencia.html">Competencia</a></li>
+                <li><a href="./workshop.html">Workshop</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="footer_3">
+            <h4>Otros enlaces</h4>
+            <ul class="privacy">
+                <li><a href="./solos.html">Registro Solistas</a></li>
+                <li><a href="./grupos.html">Registro Grupos</a></li>
+                <li><a href="./invitados.html">Jueces y Maestros invitados</a></li>
+            </ul>
+        </div>
+        <div class="footer_4">
+            <h4>Contáctanos</h4>
+            <div>
+                <p> <a href="https:/wa.me/5215611775950?text=¡Hola!%20Quisiera%20más%20información" target="_blank" rel="noreferrer noopener"><i class="uil uil-whatsapp"></i>1561177595 </a>  </p>
+                <p> <a href="https://www.instagram.com/kover_tha_fest/?hl=es" target="_blank" rel="noreferrer noopener"><i class="uil uil-instagram"></i> Kover_tha_fest </a></p>
+                <p> <a href="https://www.instagram.com/phantomdance_mx/?hl=es" target="_blank" rel="noreferrer noopener"><i class="uil uil-instagram"></i> Phantomdance_mx </a></p>
+             </div>
+           
+        </div>
+    </div>
+    <div class="footer_copyright">
+        <small>Copyright &copy; 2023 - Página creada por Zaazil Cabreja para Phantom Mx - Todos los derechos reservados</small>
+    </div>
+
+    <!-- ---- Links de JavaScript   ---- -->
+
+    <script src="./javascript/main.js"></script>
+    
+
+
+</footer>
+ </body> 
+</html> 

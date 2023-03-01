@@ -1,0 +1,182 @@
+
+/*----------------------CONTACTO--------------------------------*/
+.contact{
+    color: var(--color-black);
+    margin-top: -2rem;
+}
+.contact-container{
+    background: var(--color-bg1);
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 4rem;
+    height: 34rem;
+    margin: 5rem auto;
+    border-radius: 1rem;
+}
+/*-------------Aside----------*/
+.contact-aside{
+    background: var(--color-bg2);
+    padding: 3rem;
+    border-radius: 1rem;
+    position: relative;
+    bottom: 7rem;
+}
+.aside-image{
+    width: auto;
+    height: auto;
+    margin-bottom: 2rem;
+}
+.contact-aside h2{
+    text-align: left;
+    margin-bottom: 1rem;
+}
+.contact-aside p{
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+
+.contact-details li{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.contact_socials{
+    display: flex;
+    gap: 1.2rem;
+    margin-top: 3rem;
+}
+
+.contact_socials a{
+    background: var(--color-success);
+    padding: 0.5rem;
+    border-radius: 50%;
+    font-size: 1rem;
+}
+.contact_socials a:hover{
+    background: transparent;
+    color: var(--color-bg1);
+}
+
+/****************Form*************/
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    color: var(--color-white);
+}
+
+.contact-form2{
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea,select{
+    width: 100%;
+    padding: 1rem;
+    background: var(--color-bg);
+    color: var(--color-black);
+}
+.btn-location{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-right: 4rem;
+    
+}
+.btn-form:hover{
+    color: var(--color-white);
+    border-color: var(--color-white)
+}
+
+/*---------------------------REGISTRO DE COMPETENCIA--------------------------*/
+/*******solo**********/
+.registration{
+    background: var(--color-bg1);
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+    height: 60rem;
+    margin: 7rem 17rem;
+    border-radius: 1rem;
+    color: var(--color-white);
+}
+/*******grupo**********/
+.registration-grupo{
+  height: 71rem;
+}
+
+/*-------------------------------WORKSHOP-------------------------------------*/
+.aside-workshop-img{
+    width: auto;
+    height: auto;
+    border-radius: 2rem 2rem;
+    overflow: hidden;
+    margin: 0rem auto 2rem;
+}
+
+
+
+
+
+/********************MEDIA QUERY (TABLET)*****************************/
+@media screen and (max-width: 1024px) {
+    .contact{
+        padding-bottom: 0;
+    }
+    .contact-container{
+        gap: 2rem;;
+        margin-top: 3rem;
+        height: auto;
+        padding: 1.5rem;
+    }
+    .contact-aside{
+        width: auto;
+        padding: 1.5rem;
+        bottom: 0;
+    }
+    .contact-form{
+        align-self: center;
+        margin-right: 2rem;
+    }
+    /*------------REGISTRO------------*/
+    /*SOLO*/
+    .registration{
+        padding: 4rem;
+        margin: 7rem 7rem;
+    }
+}
+
+/***************MEDIA QUEARY (MOBIE)******************/
+@media screen and (max-width: 700px) {
+
+    .contact-container{
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        margin-top: 0;
+        padding: 0;
+       
+    }
+    
+    .contact-form{
+        align-self: center;
+        margin:0 1.5rem 3rem;
+    }
+
+        /*------------REGISTRO------------*/
+    /*SOLO*/
+    .registration{
+        padding: 1.5rem;
+        margin: 7rem 1rem;
+    }
+    /*grupo*/
+    .registration-grupo{
+        padding: 1.5rem;
+        margin: 7rem 1rem;
+    }
+}
+
+
